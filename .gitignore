@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+**/.env
+!**/.env.example
+
+# Logs
+logs/
+*.log
+backend/logs/
+
+# Build output
+dist/
+build/
+frontend/dist/
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Nested repo clone
+AI-Interview-Assistant-/
